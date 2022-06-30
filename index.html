@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+    <title>Drum JS Project</title>
+</head>
+
+<body>
+
+    <div class="keys">
+        <!-- Key-A -->
+        <div class="key" data-key="65">
+            <kbd>A</kbd>
+            <span class="sound">Clap</span>
+        </div>
+
+        <!-- Key-S -->
+        <div class="key" data-key="83">
+            <kbd>S</kbd>
+            <span class="sound">Hihit</span>
+        </div>
+
+        <!-- Key-D -->
+        <div class="key" data-key="68">
+            <kbd>D</kbd>
+            <span class="sound">Kick</span>
+        </div>
+
+        <!-- Key-F -->
+        <div class="key" data-key="70">
+            <kbd>F</kbd>
+            <span class="sound">Openhat</span>
+        </div>
+        <!-- Key-G -->
+        <div class="key" data-key="71">
+            <kbd>G</kbd>
+            <span class="sound">Boom</span>
+        </div>
+        <!-- Key-H -->
+        <div class="key" data-key="72">
+            <kbd>H</kbd>
+            <span class="sound">Ride</span>
+        </div>
+        <!-- Key-J -->
+        <div class="key" data-key="74">
+            <kbd>J</kbd>
+            <span class="sound">Snare</span>
+        </div>
+        <!-- Key-K -->
+        <div class="key" data-key="75">
+            <kbd>K</kbd>
+            <span class="sound">Tom</span>
+        </div>
+        <!-- Key-L -->
+        <div class="key" data-key="76">
+            <kbd>L</kbd>
+            <span class="sound">Tim</span>
+        </div>
+    </div>
+
+    <audio data-key="65" src="audio/clap.wav"></audio>
+    <audio data-key="83" src="audio/hihit.wav"></audio>
+    <audio data-key="68" src="audio/kick.wav"></audio>
+    <audio data-key="70" src="audio/openhat.wav"></audio>
+    <audio data-key="71" src="audio/boom.wav"></audio>
+    <audio data-key="72" src="audio/ride.wav"></audio>
+    <audio data-key="74" src="audio/snare.wav"></audio>
+    <audio data-key="75" src="audio/tom.wav"></audio>
+    <audio data-key="76" src="audio/tink.wav"></audio>
+
+
+    <script src="drum.js"></script>
+</body>
+
+</html>
